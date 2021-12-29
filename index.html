@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Shopping cart</title>
+</head>
+<body>
+
+
+    <ul class="product-list">
+        <li class="product" id="kewkew">Kewkew<button class="add-btn">+</button></li>
+        <li class="product" id="ifri">Ifri<button class="add-btn">+</button></li>
+        <li class="product"  id="bike">Bike<button class="add-btn">+</button></li>
+        <li class="product" id="console">Console<button class="add-btn">+</button></li>
+        <li class="product" id="steak">Steak<button class="add-btn">+</button></li>
+        <li class="product" id="rocket">Rocket<button class="add-btn">+</button></li>
+        <li class="product" id="my-life">My Life<button class="add-btn">+</button></li>
+    </ul>
+
+
+    <h1 id="title">Shopping cart</h1>
+    <div class="cart-container">
+        <div class="item-list-container">
+            <table>
+                <tr>
+                    <td>Item</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                </tr>
+                <tr class="item-container">
+                    <td class="item"></td>
+                    <td class="price"></td>
+                    <td class="quantity"></td>
+                    <td class="remove-btn"></td>
+                </tr>
+            </table>
+        </div>
+        <div class="sum">
+            <h1 id="total-text">Total:</h1>
+            <p id="total-sum"></p>
+        </div>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
